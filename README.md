@@ -56,5 +56,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)## Contact
 
-- Website [](https://upbeat-bardeen-a3a3a3.netlify.app/)
+- Website [MY team](https://upbeat-bardeen-a3a3a3.netlify.app/)
 - GitHub [@Bookaso](https://github.com/Bookaso/my-team-challenge.git)
