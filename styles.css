@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=PT+Serif:ital,wght@0,700;1,400&family=Poppins:wght@400;600&display=swap');
 *,
 *::before,
 *::after {
@@ -10,6 +9,9 @@
 
 body {
     margin-left: 12px;
+    height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
 .header>h1 {
@@ -26,7 +28,7 @@ body {
 .content {
     font-family: Poppins;
     margin: 10px 0;
-    max-width: 333px;
+    max-width: 300px;
 }
 
 .content>h3 {
@@ -40,8 +42,8 @@ body {
 }
 
 .crew-info {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .crew-content {
@@ -90,10 +92,12 @@ footer {
     margin-top: 50px;
     text-align: center;
     color: rgba(169, 169, 169, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
 }
 
-@media (min-width:600px){
-    
+@media (min-width:420px){
     header{
         display: flex;
         justify-content: center;
@@ -103,6 +107,6 @@ footer {
         width: 200px;
     }
     .crew-info{
-        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
